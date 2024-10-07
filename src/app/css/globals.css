@@ -1,0 +1,10 @@
+@import "./base.css";
+
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .headerLinks {
+    @apply text-sm font-semibold hover:text-slate-500 duration-200 cursor-pointer;
+  }
+}
